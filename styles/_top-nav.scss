@@ -1,0 +1,45 @@
+.top-nav {
+  display: flex;
+  padding: 5px;
+  font-size: 1rem;
+
+}
+
+.logo {
+  display: flex;
+  width: 5rem;
+  padding: 0.4rem;
+}
+
+.top-nav-logo {
+  flex-grow: 1;
+  line-height: 3rem;
+}
+
+.top-nav-logo-text {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.top-nav-menu {
+  display: flex;
+  list-style: none;
+
+  &-item {
+    padding: 0 1rem;
+  }
+}
+
+.top-nav-page-owner {
+  margin-left: 3rem;
+}
+
+.top-nav-page-type {
+  margin-left: 0.5rem;
+}
+
+.page-info {
+  display: flex;
+  flex-grow: 1;
+  }
