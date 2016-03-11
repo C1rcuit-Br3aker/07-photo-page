@@ -20,19 +20,24 @@
   flex-grow: 1;
   margin: 0;
   font-size: 3rem;
+  font-weight: 100;
 }
 
 .top-nav-menu {
   display: flex;
   list-style: none;
 
+  :nth-child(2) {
+    color: $brand-red;
+  }
+
   &-item {
-    padding: 0 1rem;
+    padding: 0 $gutter;
   }
 }
 
 .top-nav-page-owner {
-  margin-left: 3rem;
+  color: $brand-white;
 }
 
 .top-nav-page-type {
