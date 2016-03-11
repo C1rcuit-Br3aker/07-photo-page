@@ -5,4 +5,44 @@
 .main-content-article {
   flex-grow: 1;
   max-width: 65%;
+  text-align: right;
+
+}
+
+.article-image {
+  width: 60%;
+  margin-right: 1rem;
+}
+
+.main-content-info {
+  display: flex;
+}
+
+.info-icons-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+.list-icon {
+  padding-bottom: 0.8rem;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 ;
+  list-style: none;
+
+  :first-child {
+    color: $brand-red;
+  }
+}
+
+.info-text-items {
+  padding-bottom: 0.6rem;
 }

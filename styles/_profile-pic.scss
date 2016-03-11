@@ -6,27 +6,27 @@
 
 .profile-pic {
   position: relative;
-  width: 12rem;
-  height: 12rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
 
 }
 
 .profile-pic-text {
   position: absolute;
-  top: 46%;
-  left: 46%;
+  top: 22%;
+  left: 47%;
   transform: translate(0%, -35%);
   color: $brand-white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 
 }
 
 .fa-caret-down {
   position: absolute;
-  top: 28%;
-  left: 47%;
+  top: 14%;
+  left: 48%;
   transform: translate(47%, 0%);
   color: $brand-red;
-  font-size: 5rem;
+  font-size: 3rem;
 }
