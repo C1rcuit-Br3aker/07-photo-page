@@ -1,8 +1,14 @@
+
 .main-content-container {
   display: flex;
-  max-width: $max-width;
+  flex-direction: column;
+  width: $max-width;
   margin: auto;
-  margin-top: $gutter;
+
+}
+
+.article-container {
+  display: flex;
 }
 
 .main-content-article {
