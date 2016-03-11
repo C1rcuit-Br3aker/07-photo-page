@@ -1,10 +1,11 @@
 .main-content-container {
   display: flex;
+  max-width: $max-width;
+  margin: auto;
   margin-top: $gutter;
 }
 
 .main-content-article {
-  flex-grow: 1;
   width: 75%;
   max-width: 65rem;
   margin-top: 1rem;
@@ -31,11 +32,12 @@
   line-height: $gutter;
 }
 
-
 .article-image {
+  @extend %nashville;
   width: 60%;
   max-width: 38rem;
-  margin-right: 1rem;
+  margin-right: $gutter;
+
 }
 
 .main-content-info {
