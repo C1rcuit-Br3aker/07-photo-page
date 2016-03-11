@@ -1,16 +1,40 @@
 .main-content-container {
   display: flex;
+  margin-top: $gutter;
 }
 
 .main-content-article {
   flex-grow: 1;
-  max-width: 65%;
+  width: 75%;
+  max-width: 65rem;
+  margin-top: 1rem;
   text-align: right;
+}
+
+.main-content-author-info {
+  display: flex;
+  justify-content: center;
 
 }
 
+.article-image-author {
+  max-width: 32rem;
+  margin-top: 1rem;
+  color: $brand-white;
+  font-size: 1.2rem;
+}
+
+.article-image-date {
+  width: 1rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  line-height: $gutter;
+}
+
+
 .article-image {
   width: 60%;
+  max-width: 38rem;
   margin-right: 1rem;
 }
 
