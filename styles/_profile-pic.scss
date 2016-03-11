@@ -1,6 +1,6 @@
 .profile-container {
   margin: auto;
-text-align: center;
+  text-align: center;
 }
 
 
@@ -22,11 +22,11 @@ text-align: center;
 
 }
 
-.fa-chevron-down {
+.fa-caret-down {
   position: absolute;
-  top: 33%;
-  left: 48%;
-  transform: translate(75%, 0%);
+  top: 28%;
+  left: 47%;
+  transform: translate(47%, 0%);
   color: $brand-red;
-  font-size: 1.5rem;
+  font-size: 5rem;
 }

@@ -1,0 +1,8 @@
+.main-content-container {
+  display: flex;
+}
+
+.main-content-article {
+  flex-grow: 1;
+  max-width: 65%;
+}
