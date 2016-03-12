@@ -9,19 +9,22 @@
 
 .article-container {
   display: flex;
+  flex-grow: 1;
 }
 
 .main-content-article {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   width: 75%;
-  max-width: 65rem;
   margin-top: 1rem;
   text-align: right;
 }
 
 .main-content-author-info {
   display: flex;
-  justify-content: center;
-
+  margin-bottom: $gutter;
+  margin-left: 6rem;
 }
 
 .article-image-author {
@@ -39,10 +42,7 @@
 }
 
 .article-image {
-  @extend %nashville;
-  width: 60%;
-  max-width: 38rem;
-  margin-right: $gutter;
+  max-width: 40rem;
 
 }
 
@@ -77,4 +77,17 @@
 
 .info-text-items {
   padding-bottom: 0.6rem;
+}
+
+.first {
+  @extend %nashville;
+}
+
+.second {
+  @extend %nashville;
+
+}
+
+.third {
+  @extend %_1977;
 }
