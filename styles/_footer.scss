@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title-container {
+  margin: $gutter;
+  text-align: center;
+
+}
+
+.footer-suggestion-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-suggestion {
+  text-align: center;
+}
+
+.footer-image {
+  width: 22rem;
+  padding: $gutter;
+}
+
+.footer-image-text {
+
+}
