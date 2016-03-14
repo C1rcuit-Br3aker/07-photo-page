@@ -2,7 +2,7 @@
 .main-content-container {
   display: flex;
   flex-direction: column;
-  width: $max-width;
+  max-width: $max-width;
   margin: auto;
 
 }
@@ -10,7 +10,7 @@
 .article-container {
   display: flex;
   flex-grow: 1;
-  width: 65rem;
+  // width: 65rem;
 }
 
 .main-content-article {

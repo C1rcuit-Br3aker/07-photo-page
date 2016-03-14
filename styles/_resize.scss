@@ -1,9 +1,28 @@
 figure {
   max-width: 80vw;
+  height: 20rem;
+
 }
+
+.main-content-container {
+  max-width: 100vw;
+}
+
 
 .article-container {
   flex-direction: column;
+}
+
+.article-image {
+  height: 20rem;
+}
+
+.image-info-container {
+  margin-bottom: 0;
+}
+
+.article-image-info {
+  margin-bottom: 0;
 }
 
 .info-icons {
@@ -15,6 +34,7 @@ figure {
 }
 
 .footer-image {
-  max-width: 75vw;
+  max-width: 80vw;
+  max-height: 15rem;
 
 }
