@@ -6,7 +6,10 @@
 .footer-title-container {
   margin: $gutter;
   text-align: center;
+}
 
+.footer-title-text {
+  color: $brand-white;
 }
 
 .footer-suggestion-container {
@@ -16,14 +19,27 @@
 }
 
 .footer-suggestion {
+  color: $brand-white;
   text-align: center;
+
+  &:hover {
+    .footer-image {
+      opacity: 1;
+    }
+    .footer-image-text {
+      color: $brand-red;
+    }
+  }
+
 }
 
 .footer-image {
   width: 22rem;
   padding: $gutter;
+  opacity: 0.4;
+
 }
 
 .footer-image-text {
-
+  color: $brand-light-gray;
 }

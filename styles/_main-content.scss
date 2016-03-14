@@ -90,3 +90,13 @@
 .third {
   @extend %_1977;
 }
+
+.page-author-info {
+  display: flex;
+  margin-left: 13vw;
+}
+
+.page-author-text {
+  padding-right: 1rem;
+  color: $brand-white;
+}
