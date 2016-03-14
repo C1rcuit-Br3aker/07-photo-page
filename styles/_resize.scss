@@ -4,8 +4,17 @@ figure {
 
 }
 
+.logo {
+  width: 3rem;
+}
+
 .top-nav-menu {
   flex-direction: column;
+  padding-left: 0;
+}
+
+.page-info {
+  font-size: 0.8rem;
 }
 
 .main-content-container {
