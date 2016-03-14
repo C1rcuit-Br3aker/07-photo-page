@@ -26,6 +26,7 @@
     .footer-image {
       opacity: 1;
     }
+
     .footer-image-text {
       color: $brand-red;
     }
@@ -35,7 +36,7 @@
 
 .footer-image {
   width: 22rem;
-  padding: $gutter;
+  padding-top: $gutter;
   opacity: 0.4;
 
 }

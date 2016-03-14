@@ -11,3 +11,9 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'profile-pic';
 @import 'main-content';
 @import 'footer';
+
+
+@media (min-width: 400px) and (max-width: 980px) {
+  @import 'resize';
+
+}
