@@ -1,0 +1,112 @@
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 65rem;
+  margin: auto;
+
+}
+
+.article-container {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: $gutter;
+
+}
+
+.main-content-article {
+  display: flex;
+  flex-direction: column;;
+  margin-top: 1rem;
+}
+
+.image-info-container {
+  display: flex;
+  margin-bottom: $gutter;
+}
+
+.article-image-info {
+  max-width: 32rem;
+  margin-top: 1rem;
+  color: $brand-white;
+  font-size: 1.2rem;
+}
+
+.article-image-date {
+  width: 1rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  line-height: $gutter;
+}
+
+.article-image {
+  max-width: 40rem;
+
+}
+
+.main-content-info {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.info-icons-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+.list-icon {
+  padding-bottom: 0.8rem;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 ;
+  list-style: none;
+
+  :first-child {
+    color: $brand-red;
+  }
+}
+
+.info-text-items {
+  padding-bottom: 0.6rem;
+}
+
+.first {
+  @extend %nashville;
+}
+
+.second {
+  @extend %nashville;
+
+}
+
+.third {
+  @extend %_1977;
+}
+
+.page-author-container {
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 20rem;
+}
+
+.page-author-info {
+  display: flex;
+  max-width: 40rem;
+  margin: auto;
+  margin-bottom: $gutter;
+}
+
+.page-author-text {
+  padding-right: 1rem;
+  color: $brand-white;
+}

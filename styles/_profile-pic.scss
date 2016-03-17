@@ -1,0 +1,35 @@
+.profile-container {
+  position: relative;
+  max-width: 10rem;
+  margin: auto;
+  margin-bottom: $gutter;
+  text-align: center;
+}
+
+
+.profile-pic {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  opacity: 0.4;
+
+}
+
+.profile-pic-text {
+  position: absolute;
+  top: 74%;
+  left: 34%;
+  transform: translate(-15%, -26%);
+  color: $brand-white;
+  font-size: 1rem;
+
+}
+
+.fa-recycle {
+  position: absolute;
+  top: 29%;
+  left: 36%;
+  transform: rotate(-180deg);
+  color: $brand-red;
+  font-size: 3rem;
+}

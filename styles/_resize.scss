@@ -1,0 +1,49 @@
+figure {
+  max-width: 80vw;
+  height: 20rem;
+
+}
+
+.logo {
+  width: 3rem;
+}
+
+.top-nav-menu {
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.page-info {
+  font-size: 0.8rem;
+}
+
+.article-container {
+  flex-direction: column;
+  margin: auto;
+}
+
+.article-image {
+  height: 20rem;
+}
+
+.main-content-info {
+  margin: 0;
+}
+
+.image-info-container {
+  margin-bottom: 0;
+}
+
+.article-image-info {
+  margin-bottom: 0;
+}
+
+.footer-suggestion-container {
+  flex-direction: column;
+}
+
+.footer-image {
+  max-width: 80vw;
+  max-height: 15rem;
+
+}
