@@ -17,17 +17,17 @@ figure {
   font-size: 0.8rem;
 }
 
-.main-content-container {
-  max-width: 100vw;
-}
-
-
 .article-container {
   flex-direction: column;
+  margin: auto;
 }
 
 .article-image {
   height: 20rem;
+}
+
+.main-content-info {
+  margin: 0;
 }
 
 .image-info-container {
@@ -36,10 +36,6 @@ figure {
 
 .article-image-info {
   margin-bottom: 0;
-}
-
-.info-icons {
-  margin-left: 11vw;
 }
 
 .footer-suggestion-container {

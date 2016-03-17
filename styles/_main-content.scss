@@ -10,6 +10,7 @@
 .article-container {
   display: flex;
   flex-grow: 1;
+  justify-content: flex-end;
   margin-top: $gutter;
 
 }
@@ -23,7 +24,6 @@
 .image-info-container {
   display: flex;
   margin-bottom: $gutter;
-  margin-left: 13vw;
 }
 
 .article-image-info {
